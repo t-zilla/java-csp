@@ -17,6 +17,16 @@ The N queens puzzle is the problem of placing N chess queens on an N×N chessboa
 ### Latin Square
 Latin square is an N×N array filled with N different symbols, each occurring exactly once in each row and exactly once in each column. (source: https://en.wikipedia.org/wiki/Latin_square)
 
+## Comparison of implemented algorithms
+
+### Backtracking vs. Forward checking
+Latin Square problem, Logarithmic scale
+![alt text](https://raw.githubusercontent.com/t-zilla/java-csp/master/graphs/bt-vs-fc.png)
+
+### Forward checking vs. Forward checking with MRV heuristic
+N-Queens problem, Logarithmic scale
+![alt text](https://raw.githubusercontent.com/t-zilla/java-csp/master/graphs/fc-vs-fcmrv.png)
+
 ## Technologies and tools
 * Java 8
 * IntelliJ IDEA
